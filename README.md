@@ -15,6 +15,7 @@ Two web api has been implemented:
 - install [Go](https://golang.org/doc/install) , [Docker](https://docs.docker.com/engine/install/) and [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) 
 
 - to insure you have installed successfully tools above, run these commands below:
+
         ```
         -   go version
         
@@ -24,6 +25,7 @@ Two web api has been implemented:
         ```  
 
 - also make sure you have pulled [golang docker image](https://hub.docker.com/_/golang) from [docker hub](https://hub.docker.com/)
+
         ```
         -   docker pull golang:alpine
         ```
@@ -42,6 +44,7 @@ Two web api has been implemented:
         ```  
 
 2. build Docker image and run it:
+
         ```
         -   docker build -t go-app-img .
 
