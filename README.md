@@ -16,19 +16,19 @@ Two web api has been implemented:
 
 - to insure you have installed successfully tools above, run these commands below:
 
-        ```
+        
         -   go version
         
         -   git --version
 
         -   docker --verion
-        ```  
+         
 
 - also make sure you have pulled [golang docker image](https://hub.docker.com/_/golang) from [docker hub](https://hub.docker.com/)
 
-        ```
+        
         -   docker pull golang:alpine
-        ```
+        
 
 #### Installation
 
@@ -45,11 +45,11 @@ Two web api has been implemented:
 
 2. build Docker image and run it:
 
-        ```
+        
         -   docker build -t go-app-img .
 
         -   docker run -d -p 3333:3000 --name go-app-container go-app-img
-        ```
+        
 
 3. Go to the browser and navigate to localhost:3333 :
 
