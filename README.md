@@ -54,6 +54,3 @@ Two web api has been implemented:
 3. Go to the browser and navigate to localhost:3333 :
 
 ![result](https://www.bogotobogo.com/GoLang/images/Web-Docker-Image/localhost-3333-index.png)
-
-
-hi there
